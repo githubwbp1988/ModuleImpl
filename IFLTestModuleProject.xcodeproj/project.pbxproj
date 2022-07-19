@@ -19,6 +19,7 @@
 		204F6D80288744BC0099E6E8 /* IFLHomeModule.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 204F6D7E288744BC0099E6E8 /* IFLHomeModule.bundle */; };
 		204F6D81288744CD0099E6E8 /* IFLHomeModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 204F6D7D288744BC0099E6E8 /* IFLHomeModule.framework */; };
 		204F6D82288744CD0099E6E8 /* IFLHomeModule.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 204F6D7D288744BC0099E6E8 /* IFLHomeModule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		204F6D8528874D350099E6E8 /* MainForModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 204F6D8428874D350099E6E8 /* MainForModule.m */; };
 		20FF335B287F416D00B5D9B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20FF335A287F416D00B5D9B9 /* AppDelegate.m */; };
 		20FF335E287F416D00B5D9B9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20FF335D287F416D00B5D9B9 /* SceneDelegate.m */; };
 		20FF3361287F416D00B5D9B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20FF3360287F416D00B5D9B9 /* ViewController.m */; };
@@ -50,6 +51,8 @@
 		1F35E351AD4611C18671B517 /* Pods-IFLTestModuleProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IFLTestModuleProject.release.xcconfig"; path = "Target Support Files/Pods-IFLTestModuleProject/Pods-IFLTestModuleProject.release.xcconfig"; sourceTree = "<group>"; };
 		204F6D7D288744BC0099E6E8 /* IFLHomeModule.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IFLHomeModule.framework; sourceTree = "<group>"; };
 		204F6D7E288744BC0099E6E8 /* IFLHomeModule.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IFLHomeModule.bundle; sourceTree = "<group>"; };
+		204F6D8328874D350099E6E8 /* MainForModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainForModule.h; sourceTree = "<group>"; };
+		204F6D8428874D350099E6E8 /* MainForModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainForModule.m; sourceTree = "<group>"; };
 		20FF3356287F416D00B5D9B9 /* IFLTestModuleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IFLTestModuleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20FF3359287F416D00B5D9B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		20FF335A287F416D00B5D9B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -132,6 +135,8 @@
 				20FF335D287F416D00B5D9B9 /* SceneDelegate.m */,
 				20FF335F287F416D00B5D9B9 /* ViewController.h */,
 				20FF3360287F416D00B5D9B9 /* ViewController.m */,
+				204F6D8328874D350099E6E8 /* MainForModule.h */,
+				204F6D8428874D350099E6E8 /* MainForModule.m */,
 				20FF3362287F416D00B5D9B9 /* Main.storyboard */,
 				20FF3365287F416F00B5D9B9 /* Assets.xcassets */,
 				20FF3367287F416F00B5D9B9 /* LaunchScreen.storyboard */,
@@ -296,6 +301,7 @@
 				20FF335B287F416D00B5D9B9 /* AppDelegate.m in Sources */,
 				20FF336C287F416F00B5D9B9 /* main.m in Sources */,
 				20FF335E287F416D00B5D9B9 /* SceneDelegate.m in Sources */,
+				204F6D8528874D350099E6E8 /* MainForModule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
