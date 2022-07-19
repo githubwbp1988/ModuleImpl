@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		204F6D67288701C10099E6E8 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20FF3381287FF94500B5D9B9 /* AFNetworking.framework */; };
+		204F6D68288701C10099E6E8 /* AFNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 20FF3381287FF94500B5D9B9 /* AFNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		204F6D6A288701C30099E6E8 /* BeeHive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20FF3383287FF94500B5D9B9 /* BeeHive.framework */; };
+		204F6D6B288701C40099E6E8 /* BeeHive.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 20FF3383287FF94500B5D9B9 /* BeeHive.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		204F6D6E288701C80099E6E8 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20FF337F287FF94500B5D9B9 /* Masonry.framework */; };
+		204F6D6F288701C80099E6E8 /* Masonry.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 20FF337F287FF94500B5D9B9 /* Masonry.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		204F6D70288701D30099E6E8 /* YYModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20FF3385287FF94500B5D9B9 /* YYModel.framework */; };
+		204F6D71288701D30099E6E8 /* YYModel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 20FF3385287FF94500B5D9B9 /* YYModel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		204F6D7A288729E90099E6E8 /* Pods_IFLTestModuleProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0A8F1B9A4F82DC630C0D67F /* Pods_IFLTestModuleProject.framework */; };
+		204F6D80288744BC0099E6E8 /* IFLHomeModule.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 204F6D7E288744BC0099E6E8 /* IFLHomeModule.bundle */; };
+		204F6D81288744CD0099E6E8 /* IFLHomeModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 204F6D7D288744BC0099E6E8 /* IFLHomeModule.framework */; };
+		204F6D82288744CD0099E6E8 /* IFLHomeModule.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 204F6D7D288744BC0099E6E8 /* IFLHomeModule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		20FF335B287F416D00B5D9B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20FF335A287F416D00B5D9B9 /* AppDelegate.m */; };
+		20FF335E287F416D00B5D9B9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20FF335D287F416D00B5D9B9 /* SceneDelegate.m */; };
+		20FF3361287F416D00B5D9B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20FF3360287F416D00B5D9B9 /* ViewController.m */; };
+		20FF3364287F416D00B5D9B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20FF3362287F416D00B5D9B9 /* Main.storyboard */; };
+		20FF3366287F416F00B5D9B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20FF3365287F416F00B5D9B9 /* Assets.xcassets */; };
+		20FF3369287F416F00B5D9B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20FF3367287F416F00B5D9B9 /* LaunchScreen.storyboard */; };
+		20FF336C287F416F00B5D9B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20FF336B287F416F00B5D9B9 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		204F6D69288701C10099E6E8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				204F6D82288744CD0099E6E8 /* IFLHomeModule.framework in Embed Frameworks */,
+				204F6D68288701C10099E6E8 /* AFNetworking.framework in Embed Frameworks */,
+				204F6D71288701D30099E6E8 /* YYModel.framework in Embed Frameworks */,
+				204F6D6B288701C40099E6E8 /* BeeHive.framework in Embed Frameworks */,
+				204F6D6F288701C80099E6E8 /* Masonry.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1F35E351AD4611C18671B517 /* Pods-IFLTestModuleProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IFLTestModuleProject.release.xcconfig"; path = "Target Support Files/Pods-IFLTestModuleProject/Pods-IFLTestModuleProject.release.xcconfig"; sourceTree = "<group>"; };
+		204F6D7D288744BC0099E6E8 /* IFLHomeModule.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IFLHomeModule.framework; sourceTree = "<group>"; };
+		204F6D7E288744BC0099E6E8 /* IFLHomeModule.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IFLHomeModule.bundle; sourceTree = "<group>"; };
+		20FF3356287F416D00B5D9B9 /* IFLTestModuleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IFLTestModuleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20FF3359287F416D00B5D9B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		20FF335A287F416D00B5D9B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		20FF335C287F416D00B5D9B9 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		20FF335D287F416D00B5D9B9 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		20FF335F287F416D00B5D9B9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		20FF3360287F416D00B5D9B9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		20FF3363287F416D00B5D9B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20FF3365287F416F00B5D9B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20FF3368287F416F00B5D9B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20FF336A287F416F00B5D9B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20FF336B287F416F00B5D9B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20FF337F287FF94500B5D9B9 /* Masonry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Masonry.framework; sourceTree = "<group>"; };
+		20FF3381287FF94500B5D9B9 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AFNetworking.framework; sourceTree = "<group>"; };
+		20FF3383287FF94500B5D9B9 /* BeeHive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BeeHive.framework; sourceTree = "<group>"; };
+		20FF3385287FF94500B5D9B9 /* YYModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YYModel.framework; sourceTree = "<group>"; };
+		6CAE1F4682398764F0299130 /* Pods-IFLTestModuleProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IFLTestModuleProject.debug.xcconfig"; path = "Target Support Files/Pods-IFLTestModuleProject/Pods-IFLTestModuleProject.debug.xcconfig"; sourceTree = "<group>"; };
+		E0A8F1B9A4F82DC630C0D67F /* Pods_IFLTestModuleProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IFLTestModuleProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20FF3353287F416D00B5D9B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				204F6D7A288729E90099E6E8 /* Pods_IFLTestModuleProject.framework in Frameworks */,
+				204F6D6A288701C30099E6E8 /* BeeHive.framework in Frameworks */,
+				204F6D67288701C10099E6E8 /* AFNetworking.framework in Frameworks */,
+				204F6D6E288701C80099E6E8 /* Masonry.framework in Frameworks */,
+				204F6D70288701D30099E6E8 /* YYModel.framework in Frameworks */,
+				204F6D81288744CD0099E6E8 /* IFLHomeModule.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1474E16E0BD9693EE63D9E3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0A8F1B9A4F82DC630C0D67F /* Pods_IFLTestModuleProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		204F6D7C288744BC0099E6E8 /* IFLHomeModule */ = {
+			isa = PBXGroup;
+			children = (
+				204F6D7D288744BC0099E6E8 /* IFLHomeModule.framework */,
+				204F6D7E288744BC0099E6E8 /* IFLHomeModule.bundle */,
+			);
+			path = IFLHomeModule;
+			sourceTree = "<group>";
+		};
+		20FF334D287F416D00B5D9B9 = {
+			isa = PBXGroup;
+			children = (
+				20FF3358287F416D00B5D9B9 /* IFLTestModuleProject */,
+				20FF3357287F416D00B5D9B9 /* Products */,
+				EF65B191EFB342B79FD0C2E8 /* Pods */,
+				1474E16E0BD9693EE63D9E3B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		20FF3357287F416D00B5D9B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20FF3356287F416D00B5D9B9 /* IFLTestModuleProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20FF3358287F416D00B5D9B9 /* IFLTestModuleProject */ = {
+			isa = PBXGroup;
+			children = (
+				20FF338A287FF98100B5D9B9 /* private */,
+				20FF3359287F416D00B5D9B9 /* AppDelegate.h */,
+				20FF335A287F416D00B5D9B9 /* AppDelegate.m */,
+				20FF335C287F416D00B5D9B9 /* SceneDelegate.h */,
+				20FF335D287F416D00B5D9B9 /* SceneDelegate.m */,
+				20FF335F287F416D00B5D9B9 /* ViewController.h */,
+				20FF3360287F416D00B5D9B9 /* ViewController.m */,
+				20FF3362287F416D00B5D9B9 /* Main.storyboard */,
+				20FF3365287F416F00B5D9B9 /* Assets.xcassets */,
+				20FF3367287F416F00B5D9B9 /* LaunchScreen.storyboard */,
+				20FF336A287F416F00B5D9B9 /* Info.plist */,
+				20FF336B287F416F00B5D9B9 /* main.m */,
+			);
+			path = IFLTestModuleProject;
+			sourceTree = "<group>";
+		};
+		20FF337E287FF94500B5D9B9 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				20FF337F287FF94500B5D9B9 /* Masonry.framework */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		20FF3380287FF94500B5D9B9 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				20FF3381287FF94500B5D9B9 /* AFNetworking.framework */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		20FF3382287FF94500B5D9B9 /* BeeHive */ = {
+			isa = PBXGroup;
+			children = (
+				20FF3383287FF94500B5D9B9 /* BeeHive.framework */,
+			);
+			path = BeeHive;
+			sourceTree = "<group>";
+		};
+		20FF3384287FF94500B5D9B9 /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				20FF3385287FF94500B5D9B9 /* YYModel.framework */,
+			);
+			path = YYModel;
+			sourceTree = "<group>";
+		};
+		20FF338A287FF98100B5D9B9 /* private */ = {
+			isa = PBXGroup;
+			children = (
+				204F6D7C288744BC0099E6E8 /* IFLHomeModule */,
+				20FF3380287FF94500B5D9B9 /* AFNetworking */,
+				20FF3382287FF94500B5D9B9 /* BeeHive */,
+				20FF337E287FF94500B5D9B9 /* Masonry */,
+				20FF3384287FF94500B5D9B9 /* YYModel */,
+			);
+			path = private;
+			sourceTree = "<group>";
+		};
+		EF65B191EFB342B79FD0C2E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6CAE1F4682398764F0299130 /* Pods-IFLTestModuleProject.debug.xcconfig */,
+				1F35E351AD4611C18671B517 /* Pods-IFLTestModuleProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20FF3355287F416D00B5D9B9 /* IFLTestModuleProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20FF336F287F416F00B5D9B9 /* Build configuration list for PBXNativeTarget "IFLTestModuleProject" */;
+			buildPhases = (
+				A48CBD039E97A321762ABE2D /* [CP] Check Pods Manifest.lock */,
+				20FF3352287F416D00B5D9B9 /* Sources */,
+				20FF3353287F416D00B5D9B9 /* Frameworks */,
+				20FF3354287F416D00B5D9B9 /* Resources */,
+				204F6D69288701C10099E6E8 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IFLTestModuleProject;
+			productName = IFLTestModuleProject;
+			productReference = 20FF3356287F416D00B5D9B9 /* IFLTestModuleProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20FF334E287F416D00B5D9B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					20FF3355287F416D00B5D9B9 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 20FF3351287F416D00B5D9B9 /* Build configuration list for PBXProject "IFLTestModuleProject" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20FF334D287F416D00B5D9B9;
+			productRefGroup = 20FF3357287F416D00B5D9B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20FF3355287F416D00B5D9B9 /* IFLTestModuleProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20FF3354287F416D00B5D9B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20FF3369287F416F00B5D9B9 /* LaunchScreen.storyboard in Resources */,
+				20FF3366287F416F00B5D9B9 /* Assets.xcassets in Resources */,
+				204F6D80288744BC0099E6E8 /* IFLHomeModule.bundle in Resources */,
+				20FF3364287F416D00B5D9B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A48CBD039E97A321762ABE2D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IFLTestModuleProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20FF3352287F416D00B5D9B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20FF3361287F416D00B5D9B9 /* ViewController.m in Sources */,
+				20FF335B287F416D00B5D9B9 /* AppDelegate.m in Sources */,
+				20FF336C287F416F00B5D9B9 /* main.m in Sources */,
+				20FF335E287F416D00B5D9B9 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		20FF3362287F416D00B5D9B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20FF3363287F416D00B5D9B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20FF3367287F416F00B5D9B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20FF3368287F416F00B5D9B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20FF336D287F416F00B5D9B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		20FF336E287F416F00B5D9B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20FF3370287F416F00B5D9B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CAE1F4682398764F0299130 /* Pods-IFLTestModuleProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T4WCYCBLB7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IFLTestModuleProject/private/IFLHomeModule",
+					"$(PROJECT_DIR)/IFLTestModuleProject/private/BeeHive",
+					"$(PROJECT_DIR)/IFLTestModuleProject/private/Masonry",
+					"$(PROJECT_DIR)/IFLTestModuleProject/private/AFNetworking",
+					"$(PROJECT_DIR)/IFLTestModuleProject/private/YYModel",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = IFLTestModuleProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iflamer.fork.IFLTestModuleProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20FF3371287F416F00B5D9B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F35E351AD4611C18671B517 /* Pods-IFLTestModuleProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T4WCYCBLB7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IFLTestModuleProject/IFLHomeModule",
+					"$(PROJECT_DIR)/IFLTestModuleProject/BeeHive",
+					"$(PROJECT_DIR)/IFLTestModuleProject/Masonry",
+					"$(PROJECT_DIR)/IFLTestModuleProject/AFNetworking",
+					"$(PROJECT_DIR)/IFLTestModuleProject/YYModel",
+					"$(PROJECT_DIR)/IFLTestModuleProject/Frameworks/BeeHive",
+					"$(PROJECT_DIR)/IFLTestModuleProject/private/AFNetworking",
+					"$(PROJECT_DIR)/IFLTestModuleProject/private/BeeHive",
+					"$(PROJECT_DIR)/IFLTestModuleProject/private/IFLHomeModule",
+					"$(PROJECT_DIR)/IFLTestModuleProject/private/Masonry",
+					"$(PROJECT_DIR)/IFLTestModuleProject/private/YYModel",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = IFLTestModuleProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iflamer.fork.IFLTestModuleProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20FF3351287F416D00B5D9B9 /* Build configuration list for PBXProject "IFLTestModuleProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20FF336D287F416F00B5D9B9 /* Debug */,
+				20FF336E287F416F00B5D9B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20FF336F287F416F00B5D9B9 /* Build configuration list for PBXNativeTarget "IFLTestModuleProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20FF3370287F416F00B5D9B9 /* Debug */,
+				20FF3371287F416F00B5D9B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20FF334E287F416D00B5D9B9 /* Project object */;
+}

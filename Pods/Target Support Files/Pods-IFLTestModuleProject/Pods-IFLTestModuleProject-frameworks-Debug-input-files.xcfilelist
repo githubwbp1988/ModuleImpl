@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-IFLTestModuleProject/Pods-IFLTestModuleProject-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
+${BUILT_PRODUCTS_DIR}/BeeHive/BeeHive.framework

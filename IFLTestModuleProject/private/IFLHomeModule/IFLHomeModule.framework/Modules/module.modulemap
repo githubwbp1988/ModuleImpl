@@ -1,0 +1,6 @@
+framework module IFLHomeModule {
+  umbrella header "IFLHomeModule-umbrella.h"
+
+  export *
+  module * { export * }
+}
