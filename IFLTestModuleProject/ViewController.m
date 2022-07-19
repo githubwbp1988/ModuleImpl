@@ -51,6 +51,10 @@
 
                 }];
             }
+            
+            if ([destVc respondsToSelector:@selector(setTitle:content:)]) {
+                [destVc performSelector:@selector(setTitle:content:) withObject:@"我是title" withObject:@"我是content"];
+            }
         }
     }
 #pragma clang diagnostic pop
